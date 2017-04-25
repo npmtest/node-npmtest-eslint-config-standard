@@ -1,6 +1,6 @@
 # npmtest-eslint-config-standard
 
-#### test coverage for  [eslint-config-standard (v10.2.1)](https://github.com/feross/eslint-config-standard)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-standard)
+#### basic test coverage for  [eslint-config-standard (v10.2.1)](https://github.com/feross/eslint-config-standard)  [![npm package](https://img.shields.io/npm/v/npmtest-eslint-config-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-eslint-config-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-eslint-config-standard.svg)](https://travis-ci.org/npmtest/node-npmtest-eslint-config-standard)
 
 #### JavaScript Standard Style - ESLint Shareable Config
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-config-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-config-standard/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eslint-config-standard/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-config-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-config-standard/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eslint-config-standard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eslint-config-standard/build/coverage.html/index.html)
 
@@ -108,7 +108,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "10.2.1"
+    "version": "10.2.1",
+    "bin": {}
 }
 ```
 
